@@ -1,0 +1,1410 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.base {
+    background: #F8FCFF;
+    width: 100%;
+    height: 850px;
+}
+
+.menu {
+    display: flex;
+    gap: 2.5em;
+    padding: 30px;
+}
+
+.menu a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #404041;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.logo h5 {
+    padding: 30px;
+}
+
+.logo a {
+    color: #212529;
+
+}
+
+.logo a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.nav-icon button {
+    border: 1.4px solid #DFDFDF;
+    padding: 12px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    background-color: transparent;
+}
+
+.section-nav {
+    margin-top: 20px;
+}
+
+.section-nav-heading h5 {
+
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    /* or 100% */
+    margin-bottom: 30px;
+    letter-spacing: -0.01em;
+    color: #222223;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.section-nav-para p {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+    margin-bottom: 30px;
+    color: #222223;
+    width: 70%;
+
+}
+
+.section-nav-arrow i {
+    background: #222223;
+    box-shadow: 0px 10px 30px rgba(206, 206, 206, 0.6);
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    color: white;
+}
+
+.section-nav-arrow a {
+    color: #000000;
+}
+
+.section-nav-arrow a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.section-nav-img img {
+    width: 100%;
+    /* height: 450px; */
+}
+
+
+.section2-nav {
+    margin-top: 50px;
+    /* margin-bottom: 30px; */
+}
+
+.section2-nav-heading1 h5 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    /* or 120% */
+    width: 221px;
+    height: 84px;
+
+    color: #222223;
+
+}
+
+.section2-nav-para1 p {
+    width: 233px;
+    height: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.01em;
+
+    color: #5F5F64;
+
+}
+
+.section2-nav-img img {
+    margin-bottom: 17px;
+}
+
+.section2-nav-heading2 h5 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.01em;
+    margin-bottom: 15px;
+
+    color: #17181A;
+
+}
+
+.section2-nav-para2 p {
+    width: 188px;
+    height: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.01em;
+
+    color: #5F5F64;
+}
+
+
+
+.social {
+    /* margin-top: 140px ; */
+    background-color: #CFEDFF;
+    width: 100%;
+    height: 300px;
+}
+.social-img img {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.social-heading h5 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 127% */
+    width: 60%;
+    color: #202020;
+    margin-top: 40px;
+
+}
+
+.social-para p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.02em;
+    color: #5F5F64;
+    width: 50%;
+}
+
+.customer {
+    margin-top: 70px;
+}
+
+.customer-heading h5 {
+    /* width: 643px; */
+    /* height: 80px; */
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0D1111;
+
+}
+
+.customer-para p {
+    width: 60%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    color: #767E7E;
+
+}
+
+
+.customer-line {
+    border-top: 1px solid #767E7E;
+    border-bottom: 1px solid #767E7E;
+    margin-top: 70px;
+    opacity: 0.7;
+
+}
+
+.main1 {
+    border-right: 1.5px solid #767E7E;
+    height: auto;
+    padding: 30px;
+}
+
+.main2 {
+    border-right: 1.5px solid #767E7E;
+    height: auto;
+    padding: 30px;
+}
+
+.main3 {
+    border-right: 1.5px solid #767E7E;
+    height: auto;
+    padding: 30px;
+}
+
+.main4 {
+    border-right: 1.5px solid #767E7E;
+    height: auto;
+    padding: 30px;
+}
+
+.customer-heading2 h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 0.4em;
+
+    color: #718176;
+
+}
+
+.customer-para2 p {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+
+}
+
+.main4:last-child {
+    border-right: none;
+}
+
+.handoff {
+    margin-top: 130px;
+    width: 100%;
+    height: 500px;
+}
+
+.main-handoff {
+    display: flex;
+}
+
+.handoff-img img {
+    width: 100%;
+    /* height: 550px; */
+
+}
+
+.handoff-heading h5 {
+
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 119% */
+    width: 100%;
+    /* height: 111px; */
+    letter-spacing: -0.01em;
+    margin-bottom: 5px;
+
+    color: #192430;
+
+}
+
+.handoff-para p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    width: 100%;
+    /* height: 50px; */
+    letter-spacing: 0.01em;
+    margin-bottom: 15px;
+
+    color: #727272;
+}
+
+.handoff-info h5 {
+    margin-top: 25px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 140% */
+    margin-left: -20px;
+
+    color: #222222;
+}
+
+.handoff-info p {
+    width: 286px;
+    height: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* or 180% */
+    margin-left: -20px;
+
+    color: #727272;
+}
+
+.handoff-icon img {
+    margin-left: -10px;
+    width: 100%;
+}
+
+/* .main p:last-child {
+    border-right: 0;
+} */
+
+.visacard {
+    background: #41B3F4;
+    margin-top: 130px;
+    width: 100%;
+    height: 500px;
+}
+
+.visacard-heading h5 {
+    margin-top: 150px;
+    /* text-align: center; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+    letter-spacing: 0.01em;
+
+    color: #414449;
+    width: 120px;
+    height: 81px;
+}
+
+.visacard-img img {
+    text-align: center;
+}
+
+.visacard-heading2 h5 {
+    width: 430px;
+    margin-top: 130px;
+    height: 140px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    margin-left: 80px;
+    /* or 117% */
+
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.visacard-line {
+    border-left: 6px solid #718176;
+}
+
+.visacard-button a {
+    background: #E15C19;
+    color: white;
+    padding: 15px 35px 15px 35px;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.visacard-button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.visacard-card img {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.main-footer {
+    /* margin-top: 80px; */
+    background: #F8FCFF;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 3em;
+    margin-top: 80px;
+}
+
+.footer-menu a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #404041;
+
+}
+
+.footer-menu a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-logo h5 {
+    /* text-align: center; */
+    margin-top: 80px;
+}
+
+.footer-logo a {
+    color: #212529;
+}
+
+.footer-logo a:hover {
+    text-decoration: none;
+    color: #212529;
+}
+
+.social-icons {
+    margin-top: 80px;
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+}
+
+.social-icons a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #404041;
+
+}
+
+.social-icons a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-copyright p {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+    color: rgba(27, 27, 27, 0.35);
+}
+
+.footer-logo h5 {
+    text-align: center;
+}
+
+.footer-line {
+    border: 1px solid #565B58;
+    margin-top: 50px;
+}
+
+.footer-design p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+
+    color: #7B827D;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    .nav-icon button {
+        border: 1.4px solid #DFDFDF;
+        padding: 15px;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        background-color: transparent;
+    }
+
+    .section-nav-heading h5 {
+
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        /* or 100% */
+        /* margin-bottom: 30px; */
+        letter-spacing: -0.01em;
+
+        color: #222223;
+        width: 100%;
+        height: 160px;
+
+    }
+
+    .section-nav-img img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .section-nav-img {
+        margin-top: 0px;
+    }
+
+    .section-nav-heading h5 {
+
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        /* or 100% */
+        /* margin-bottom: 30px; */
+        letter-spacing: -0.01em;
+
+        color: #222223;
+        width: 100%;
+        height: 160px;
+
+    }
+
+    .section-nav-img img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .section-nav-img {
+        margin-top: 0px;
+    }
+
+    .base {
+        width: 100%;
+        height: auto;
+    }
+
+    .section2-nav-heading1 h5 {
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        /* or 120% */
+        width: 100%;
+
+        color: #222223;
+
+    }
+
+    .section2-nav-para1 p {
+        width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.01em;
+
+        color: #5F5F64;
+
+    }
+
+    .section2-nav-img img {
+        margin-bottom: 17px;
+    }
+
+    .section2-nav-heading2 h5 {
+        width: 90%;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        /* identical to box height, or 140% */
+
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+
+        color: #17181A;
+
+    }
+
+    .section2-nav-para2 p {
+        width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.01em;
+
+        color: #5F5F64;
+    }
+
+
+    .social {
+        /* margin-top: 40px ; */
+        background-color: #CFEDFF;
+        width: 100%;
+        height: auto;
+        /* margin-top: 50px; */
+    }
+
+    .social-heading h5 {
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        /* or 127% */
+        width: 70%;
+        color: #202020;
+        margin-left: 50px;
+        margin-top: 10PX;
+    }
+
+
+    .social-para p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.02em;
+
+        color: #5F5F64;
+        width: 256px;
+        height: 52px;
+        margin-left: 50px;
+    }
+
+    .main4:last-child {
+        border-right: 1px solid #767E7E;
+    }
+
+    .handoff-heading h5 {
+
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        /* or 119% */
+        width: 100%;
+        letter-spacing: -0.01em;
+        margin-bottom: 25px;
+
+        color: #192430;
+
+    }
+
+    .handoff-para p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+        width: 100%;
+        letter-spacing: 0.01em;
+        margin-bottom: 5px;
+
+        color: #727272;
+    }
+
+    .handoff-info p {
+        width: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 27px;
+        /* or 180% */
+        margin-left: -20px;
+
+        color: #727272;
+    }
+
+    .handoff {
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+
+    .handoff-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .visacard-heading h5 {
+        margin-top: 30px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+
+        letter-spacing: 0.01em;
+
+        color: #414449;
+        width: 120px;
+        height: 81px;
+    }
+
+    .visacard-heading2 h5 {
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        height: 140px;
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        margin-left: 10px;
+        /* or 117% */
+
+        letter-spacing: -0.02em;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        color: #000000;
+    }
+
+    .visacard {
+        background: #41B3F4;
+        margin-top: 130px;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-footer {
+        /* margin-top: 80px; */
+        background: #F8FCFF;
+        width: 100%;
+        height: auto;
+    }
+
+    .img-popup img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .popup-button a {
+        width: 90%;
+        text-align: center;
+        padding: 8px 50px 8px 50px;
+        background-color: #C9D6D6;
+    }
+}
+
+@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) {}
+
+@media screen and (min-width: 768px) and (max-height: 1180px) and (orientation : portrait) {
+
+    .base {
+        background: #F8FCFF;
+        width: 100%;
+        height: auto;
+    }
+
+    .section-nav-heading h5 {
+
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 45px;
+        /* or 100% */
+        margin-bottom: 15px;
+        letter-spacing: -0.01em;
+        color: #222223;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    .section-nav-para p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        /* identical to box height, or 100% */
+        margin-bottom: 15px;
+        color: #222223;
+        width: 70%;
+
+    }
+
+    .section-nav-arrow i {
+        background: #222223;
+        box-shadow: 0px 10px 30px rgba(206, 206, 206, 0.6);
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+        color: white;
+    }
+
+    .section-nav-arrow h5 {
+        font-size: 15px;
+    }
+
+    .section2-nav-heading1 h5 {
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        /* or 120% */
+        width: 90%;
+        /* height: 84px; */
+
+        color: #222223;
+
+    }
+
+    .section2-nav-para1 p {
+        width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.01em;
+
+        color: #5F5F64;
+
+    }
+
+    .section2-nav-img img {
+        /* margin-bottom: 17px; */
+        width: 15%;
+    }
+
+    .section2-nav-heading2 h5 {
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        /* identical to box height, or 140% */
+
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+
+        color: #17181A;
+
+    }
+
+    .section2-nav-para2 p {
+        width: 100%;
+        /* height: 52px; */
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        /* or 162% */
+
+        letter-spacing: 0.01em;
+
+        color: #5F5F64;
+    }
+
+    .social {
+        margin-top: 70px;
+        background-color: #CFEDFF;
+        width: 100%;
+        height: 300px;
+    }
+
+    .social-heading h5 {
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 38px;
+        /* or 127% */
+        width: 60%;
+        color: #202020;
+        margin-top: 10px;
+
+    }
+
+    .social-para p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.02em;
+        color: #5F5F64;
+        width: 50%;
+    }
+
+    .customer-heading h5 {
+        /* width: 643px; */
+        /* height: 80px; */
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        /* identical to box height, or 100% */
+        text-align: center;
+        letter-spacing: 0.01em;
+        margin-left: auto;
+        margin-right: auto;
+        color: #0D1111;
+
+    }
+
+    .customer-para p {
+        width: 60%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+        color: #767E7E;
+
+    }
+
+
+    .customer-line {
+        border-top: 1px solid #767E7E;
+        border-bottom: 1px solid #767E7E;
+        margin-top: 70px;
+        opacity: 0.7;
+
+    }
+
+    .customer-heading2 h5 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 30px;
+        text-align: center;
+        letter-spacing: 0.4em;
+
+        color: #718176;
+
+    }
+
+    .customer-para2 p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        /* identical to box height, or 160% */
+
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        color: #000000;
+
+    }
+
+    .handoff {
+        margin-top: 130px;
+        width: 100%;
+        height: auto;
+    }
+
+    .handoff-heading h5 {
+
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+        /* or 119% */
+        width: 100%;
+        /* height: 111px; */
+        letter-spacing: -0.01em;
+        /* margin-bottom: 5px; */
+
+        color: #192430;
+
+    }
+
+    .handoff-para p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        /* or 175% */
+        width: 100%;
+        /* height: 50px; */
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+
+        color: #727272;
+    }
+
+    .handoff-info h5 {
+        margin-top: 25px;
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 140% */
+        margin-left: -20px;
+
+        color: #222222;
+    }
+
+    .handoff-info p {
+        width: 100%;
+        /* height: 52px; */
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        /* or 180% */
+        margin-left: -20px;
+
+        color: #727272;
+    }
+
+    .handoff-icon img {
+        /* margin-left: -10px; */
+        width: 100%;
+    }
+
+    .visacard {
+        background: #41B3F4;
+        margin-top: 130px;
+        width: 100%;
+        height: auto;
+    }
+
+    .visacard-heading2 h5 {
+        width: 100%;
+        margin-top: 130px;
+        font-family: 'Bai Jamjuree';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 45px;
+        margin-left: 80px;
+        /* or 117% */
+
+        letter-spacing: -0.02em;
+        text-transform: capitalize;
+        /* margin-bottom: 40px; */
+        color: #000000;
+    }
+
+    .visacard-line {
+        border-left: 6px solid #718176;
+        /* margin-left: 20px; */
+    }
+
+    .visacard-button a {
+        background: #E15C19;
+        color: white;
+        padding: 15px 35px 15px 35px;
+        /* margin-top: 40px; */
+        /* margin-left: 80px; */
+        font-size: 18px;
+    }
+
+
+    .visacard-card img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        width: 100%;
+
+    }
+
+    .footer-menu a {
+        font-size: 10px;
+    }
+
+    .footer-logo h5 {
+        font-size: 15px;
+        margin-top: 87px;
+        float: left;
+    }
+
+    .social-icons a {
+        font-size: 10px;
+    }
+
+    .footer-copyright p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .img-popup img {
+        width: 100%;
+        height: 330px;
+    }
+
+    .popup-button a {
+        width: 90%;
+        text-align: center;
+        padding: 8px 50px 8px 50px;
+        background-color: #C9D6D6;
+    }
+
+
+
+
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+.main-popup {
+    display: flex;
+    flex-direction: row;
+    /* gap: 0.5em; */
+}
+
+.img-popup img {
+    width: 100%;
+    height: 370px;
+}
+
+.modal-content {
+    padding: 0px;
+    width: 650px;
+    /* height: auto; */
+    margin: 30% auto;
+}
+
+.popup1 {
+    padding: 20px;
+}
+
+.popup-heading h5 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.para-popup p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.popup-input input {
+    width: 100%;
+    padding: 7px;
+    /* text-align: center; */
+    background-color: #E7E7E7;
+    border-color: transparent;
+    margin-bottom: 20px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    outline: none;
+}
+
+
+.popup-button button {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #17B9BB;
+    border-color: transparent;
+    font-size: 20px;
+    color: white;
+}
+
+.popup-button h5 {
+    color: white;
+}
+
+.popupend p {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.popupend a {
+    color: #3A3A3A;
+}
+
+.popupend a:hover {
+    color: #3A3A3A;
+    text-decoration: none;
+}
